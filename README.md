@@ -5,13 +5,11 @@ This repository contains Python code for implementing various reinforcement lear
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Random Walk](#random-walk)
-  - [Policy Evaluation](#policy-evaluation)
-  - [Policy Iteration](#policy-iteration)
-  - [Q-Learning](#q-learning)
+- [Random Walk](#random-walk)
+- [Policy Evaluation](#policy-evaluation)
+- [Policy Iteration](#policy-iteration)
+- [Q-Learning](#q-learning)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 To run this code, you will need Python 3.x and the following packages:
@@ -40,3 +38,13 @@ The policy_iteration function optimizes a policy by iteratively evaluating and i
 ## Q-Learning
 The QAgent class implements the Q-learning algorithm, allowing the agent to learn an optimal policy through interaction with the environment. The train function facilitates the training process over a specified number of episodes.
 
+## Results
+Random walk with policy evaluation
+<div align="center">
+    <img src="frozenlake_random.gif" alt="demo">
+</div>
+
+Q-Learning
+<div align="center">
+    <img src="frozenlake_q_learning.gif" alt="demo">
+</div>

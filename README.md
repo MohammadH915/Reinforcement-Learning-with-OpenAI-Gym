@@ -23,6 +23,7 @@ To run this code, you will need Python 3.x and the following packages:
 You can install the dependencies using pip:
 ```bash
 pip install numpy gymnasium imageio IPython
+```
 
 ## Usage
 This section describes how to use the code to train reinforcement learning agents in the Frozen Lake environment.
